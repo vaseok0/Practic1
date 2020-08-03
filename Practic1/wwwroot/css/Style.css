@@ -1,0 +1,21 @@
+﻿input {
+    margin-bottom: 10px;
+}
+.display-4 {
+    color: red;
+}
+form {
+    width: 100px;
+    height: 20%;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.text{
+    color: chartreuse;
+    font-style: italic;
+}
+.radio{
+    border-bottom-color: blue;
+}

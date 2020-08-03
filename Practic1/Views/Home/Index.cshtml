@@ -1,0 +1,20 @@
+﻿@model Practic1.Models.Autorization
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <link rel="stylesheet" href="~/css/Style.css" />
+    <div class="text-center">
+        <h1 class="display-4">Авторизуйтесь будь-ласка</h1>
+        <div>
+            <h5>@ViewData["aut"]</h5>
+            <form class="autorized">
+                <label asp-for="Login">Login</label><br />
+                <input asp-for="Login" type="text" name="Login" /><br />
+
+                <label asp-for="Password">Password</label><br />
+                <input asp-for="Password" type="password" name="Password" /><br />
+                <button class="SignInBtn" asp-action="Page" asp-controller="Home">Зареєструватися</button>
+            </form>
+        </div>
+        <script src="~/js/site.js"></script>
+    </div>
